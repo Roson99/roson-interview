@@ -1,0 +1,27 @@
+{
+  "name": "roson-interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "roson-run": "./index.js"
+  },
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "webpack-dev-server",
+    "build": "webpack",
+    "lint": "eslint --ext .js src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "lodash": "^4.17.21",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  }
+}
